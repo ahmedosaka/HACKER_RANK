@@ -1,6 +1,6 @@
 select city, length(city) from station
 order by length(city),city asc
-limit 1;
+limit Revising Aggregations - Averages .sql;
 select city, length(city) from station
 order by length(city) desc
-limit 1;
+limit Revising Aggregations - Averages .sql;
