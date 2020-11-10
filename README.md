@@ -62,5 +62,5 @@ SQL solutions are coded using MySQL
 |     Aggregation     | [Weather Observation Station 17](https://www.hackerrank.com/challenges/weather-observation-station-17)                       |   15   | [MySQL Solution](https://github.com/RodneyShag/HackerRank_solutions/blob/master/SQL/Aggregation/Weather%20Observation%20Station%2017.sql)                 |
 |     Aggregation     | [Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18)                       |   25   | [MySQL Solution](https://github.com/RodneyShag/HackerRank_solutions/blob/master/SQL/Aggregation/Weather%20Observation%20Station%2018.sql)                 |
 |     Aggregation     | [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19)                       |   30   | [MySQL Solution](https://github.com/RodneyShag/HackerRank_solutions/blob/master/SQL/Aggregation/Weather%20Observation%20Station%2019.sql)                 |
-
+1
 -->
