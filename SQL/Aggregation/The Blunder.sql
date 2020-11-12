@@ -1,1 +1,0 @@
-select ceiling(cast(avg(salary) as float) - avg(cast(replace(salary,0,'') as float))) from employees;
