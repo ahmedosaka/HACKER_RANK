@@ -1,0 +1,111 @@
+Which of the following statements are true about SQL (select all that apply)?
+
+
+question 1:
+
+*SQL is the standard language for relational database management.(selected)
+
+Correct
+At a basic level, SQL is a method of communication between you and the database.
+
+
+*The acronym SQL stands for Structured Query Language(selected)
+
+Correct
+SQL does stand for Structured Query Language.
+
+
+*SQL uses esoteric terms and computer industry jargon, so it’s more challenging than other computer languages.
+
+
+*SQL is the standard language for data manipulation (selected)
+
+Correct
+Data manipulation includes SQL being used to query, insert, update and modify data.
+
+
+*You will be able to write complete applications using SQL.
+
+
+----------------------------------------------------------------
+
+question 2:
+
+Select the three main uses of SQL
+
+
+Create data
+
+
+Copy data
+
+
+Read data (selected)
+
+Correct
+
+Write data (selected)
+
+Correct
+
+Update data (selected)
+
+Correct
+
+
+----------------------------------------------------------------
+
+question 3:
+
+Which of the following statements are true of the Data Administrator? Select any that only apply to the Data Administrator; DO NOT select those that (also) apply to the Data Scientist role.
+
+
+Assigns users permissions (selected)
+
+Correct
+This is the responsibility of the Data Administrator.
+
+
+Manages tables (selected)
+
+Correct
+While some tables are created by Data Scientists, the Data Administrator is responsible to manage and create tables.
+
+
+Determines access to data (selected)
+
+Correct (selected)
+This is the Data Administrator’s responsibility.
+
+
+Uses SQL to query and retrieve data
+
+
+End user of a database
+
+
+Manages/governs entire database (selected)
+
+Correct
+
+----------------------------------------------------------------
+
+question 4 :
+
+SQL is used for many things; however, what was stressed as THE MAIN THING it is used for by Data Scientists?
+
+
+Building models
+
+
+Data Retrieval(selected)
+
+
+Writing complex queries for analysis
+
+
+Making predictions based on data
+
+
+----------------------------------------------------------------
+
