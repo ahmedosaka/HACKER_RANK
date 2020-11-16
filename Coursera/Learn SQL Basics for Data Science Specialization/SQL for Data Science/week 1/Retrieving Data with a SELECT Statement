@@ -1,0 +1,18 @@
+Which of the following are the required component parts that must be part of a SELECT statement (select all that apply)?
+
+
+SELECT what
+
+Correct
+A SELECT statement must always say what you want selected.
+
+
+FROM where
+
+Correct
+A SELECT statement must always say where you want data selected from
+
+
+* (Asterisk)
+
+

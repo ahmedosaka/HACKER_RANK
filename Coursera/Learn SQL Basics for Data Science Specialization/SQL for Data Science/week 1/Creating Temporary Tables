@@ -1,0 +1,16 @@
+Which of the following are benefits of using temporary tables (the reasons I said they are “really good to use”)?
+
+
+Faster than creating a real table(selected)
+
+Correct
+In business, being able to achieve the desired result faster is always a benefit. Temporary tables sometimes help you do this.
+
+
+They will not be deleted when the current client session is terminated.
+
+
+Allows you to simplify complex queries(selected)
+
+Correct
+You use temporary tables to simplify by creating a subset, and then joining to that subset, and derive a new calculation.
