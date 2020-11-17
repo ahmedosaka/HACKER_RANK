@@ -21,5 +21,9 @@ It reduces the amount of data you’re analyzing and that speeds up the query pe
 Correct
 This, in turn, speeds up overall processing.
 
+<<<<<<< HEAD
 <a href=""><img src="https://image.prntscr.com/image/s0g_-uDtTyGMkeoShRgAxA.png" alt="Screenshot-10" border="0"></a>
 
+=======
+<a href="https://image.prntscr.com/image/s0g_-uDtTyGMkeoShRgAxA.png"><img src="https://image.prntscr.com/image/s0g_-uDtTyGMkeoShRgAxA.png" alt="Screenshot-10" border="0"></a>
+>>>>>>> a708656921d8277a4898db5d3298a7316c0bbbed
