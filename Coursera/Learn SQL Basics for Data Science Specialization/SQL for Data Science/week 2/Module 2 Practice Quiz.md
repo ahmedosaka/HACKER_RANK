@@ -10,5 +10,3 @@
 <a href="https://image.prntscr.com/image/3j8fd-l1TIW17xqGcV56EQ.png"><img src="https://image.prntscr.com/image/3j8fd-l1TIW17xqGcV56EQ.png" alt="Screenshot-10" border="0"></a>
 <a href="https://image.prntscr.com/image/HFaWM8EjTROgT6DtBIjbPA.png"><img src="https://image.prntscr.com/image/HFaWM8EjTROgT6DtBIjbPA.png" alt="Screenshot-10" border="0"></a>
 <a href="https://image.prntscr.com/image/_sMHUbaESIeoyWsxnJaBNg.png"><img src="https://image.prntscr.com/image/_sMHUbaESIeoyWsxnJaBNg.png" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
