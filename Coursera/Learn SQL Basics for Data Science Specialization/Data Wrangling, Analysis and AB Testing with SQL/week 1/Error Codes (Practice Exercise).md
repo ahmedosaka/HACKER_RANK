@@ -91,6 +91,6 @@ FROM \
     ) first_profile_view\
   GROUP BY \
     (CASE WHEN first_view IS NULL THEN false\
-    ELSE true END)\
+    ELSE true END)
     
 <a href="https://image.prntscr.com/image/PulnDAY0RfKYL5nQFj56ZA.png"><img src="https://image.prntscr.com/image/PulnDAY0RfKYL5nQFj56ZA.png" alt="Screenshot-10" border="0"></a>
