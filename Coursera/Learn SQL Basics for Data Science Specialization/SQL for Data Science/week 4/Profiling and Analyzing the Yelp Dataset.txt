@@ -367,43 +367,100 @@ Copy and Paste the Resulting Table Below (2 columns â€“ star rating and cou
 Part 2: Inferences and Analysis
 
 1. Pick one city and category of your choice and group the businesses in that city or category by their overall star rating. Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answer the following questions. Include your code.
-test
+
+
+
 i. Do the two groups you chose to analyze have a different distribution of hours?
-
-
+Yes
 ii. Do the two groups you chose to analyze have a different number of reviews?
-
+Yes     Y
 
 iii. Are you able to infer anything from the location data provided between these two groups? Explain.
 
++-----------------------------+------+-----------------------------+-------+----------------------+--------------+-------------+
+| name                        | city | category                    | stars | hours                | review_count | postal_code |
++-----------------------------+------+-----------------------------+-------+----------------------+--------------+-------------+
+| Ghost Armor SS Springs      | Mesa | Mobile Phone Accessories    |   2.0 | Saturday|10:00-21:00 |            3 | 85206       |
+| Cash Time Loan Center       | Mesa | Check Cashing/Pay-day Loans |   3.0 | Saturday|9:00-18:00  |            4 | 85210       |
+| Eklectic Pie - Mesa         | Mesa | Gluten-Free                 |   4.0 | Saturday|11:00-22:00 |          129 | 85204       |
+| Health For Life: North Mesa | Mesa | Cannabis Clinics            |   4.5 | Saturday|9:00-20:00  |           16 | 85215       |
+| Green Corner Restaurant     | Mesa | Restaurants                 |   5.0 | Saturday|10:30-22:00 |          267 | 85210       |
++-----------------------------+------+-----------------------------+-------+----------------------+--------------+-------------+
+
+As per the above results, i don't see any kind of collerations between the location or the working hours with the raiting since the review count is not that high and not enough data to judge.
+ 1-3 stars doesn't have much data to judge if it's bad or good. Seems that it's a new store and it should get better by time.
+
+ 
 SQL code used for analysis:
+select
+business.name
+, business.city
+, category.category
+, business.stars
+, hours.hours
+, business.review_count
+, business.postal_code
+from (business inner join category on business.id = category.business_id) inner join hours on hours.business_id = category.business_id
+where business.city = 'Mesa'
+ group by business.stars;
 
-
-
+ 
 2. Group business based on the ones that are open and the ones that are closed. What differences can you find between the ones that are still open and the ones that are closed? List at least two differences and the SQL code you used to arrive at your answer.
 
-i. Difference 1:
++-----------------------------+---------+--------------------------+-------+----------------------+--------------+-------------+
+| name                        | is_open | category                 | stars | hours                | review_count | postal_code |
++-----------------------------+---------+--------------------------+-------+----------------------+--------------+-------------+
+| Ghost Armor SS Springs      |       0 | Mobile Phone Accessories |   2.0 | Saturday|10:00-21:00 |            3 | 85206       |
+| Health For Life: North Mesa |       1 | Cannabis Clinics         |   4.5 | Saturday|9:00-20:00  |           16 | 85215       |
++-----------------------------+---------+--------------------------+-------+----------------------+--------------+-------------+
 
+i. Difference 1:
+      the one that is open has more reviews
 
 ii. Difference 2:
-
+     the working hours of the open one is earlier and it's located in the north.
 
 
 SQL code used for analysis:
 
-
+select
+business.name
+, business.city
+, category.category
+, business.stars
+, business.postal_code,
+business.is_open
+from business inner join category on business.id = category.business_id
+where business.city = 'Mesa'
+ group by business.is_open;
 
 3. For this last part of your analysis, you are going to choose the type of analysis you want to conduct on the Yelp dataset and are going to prepare the data for analysis.
 
 Ideas for analysis include: Parsing out keywords and business attributes for sentiment analysis, clustering businesses to find commonalities or anomalies between them, predicting the overall star rating for a business, predicting the number of fans a user will have, and so on. These are just a few examples to get you started, so feel free to be creative and come up with your own problem you want to solve. Provide answers, in-line, to all of the following:
 
 i. Indicate the type of analysis you chose to do:
-
+      My goal aim to find the colleration between the user number of reviews and what cities they live or rate mostly in and since when they have been rating stores..
 
 ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
-
+            I will need the user name and user review_count, yelping_since and on the other side, i will be in need for the business stars, postal_code, check if still, Is_open
+            
 
 iii. Output of your finished dataset:
 
 
++---------+--------------+---------------------+-----------+-------+-------------+---------+
+| name    | review_count | yelping_since       | city      | stars | postal_code | is_open |
++---------+--------------+---------------------+-----------+-------+-------------+---------+
+| Ed      |            8 | 2009-12-05 00:00:00 | Las Vegas |   3.0 | 89146       |       1 |
+| Marlene |           27 | 2011-02-18 00:00:00 | Las Vegas |   3.5 | 89109       |       1 |
+| W       |          198 | 2008-12-21 00:00:00 | Las Vegas |   3.5 | 89141       |       1 |
+| Just    |           62 | 2008-01-04 00:00:00 | Las Vegas |   2.0 | 89109       |       1 |
++---------+--------------+---------------------+-----------+-------+-------------+---------+
+
 iv. Provide the SQL code you used to create your final dataset:
+
+
+select
+user.name, user.review_count, user.yelping_since, business.city, business.stars, business.postal_code, business.is_open
+from (user inner join review on user.id = review.user_id) inner join business on review.business_id = business.id;
+
