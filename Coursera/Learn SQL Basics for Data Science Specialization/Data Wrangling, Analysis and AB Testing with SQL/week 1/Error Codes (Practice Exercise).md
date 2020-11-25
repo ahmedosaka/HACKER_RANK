@@ -1,5 +1,5 @@
 
-#Exercise 1:
+#Exercise 1:\
 My code: 
 
 SELECT id,\
