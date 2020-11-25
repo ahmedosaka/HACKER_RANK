@@ -1,5 +1,5 @@
 
-#Exercise 1:
+# Exercise 1:
 #
 My code: 
 
@@ -10,7 +10,7 @@ where deleted_at is Null;\
 <a href="https://image.prntscr.com/image/cPzcLozrR8ah9K9CElX88w.png"><img src="https://image.prntscr.com/image/cPzcLozrR8ah9K9CElX88w.png" alt="Screenshot-10" border="0"></a>
 
 #
-#h1 Exercise 2:
+# Exercise 2:
 #
 SELECT  count(adjective) as number_of_items, category\
 FROM dsv1069.items\
@@ -27,14 +27,14 @@ JOIN dsv1069.users on dsv1069.users.id = dsv1069.orders.user_id;
 
 <a href="https://image.prntscr.com/image/QNQz3vmbSFOFroJ1wdGKIw.png"><img src="https://image.prntscr.com/image/QNQz3vmbSFOFroJ1wdGKIw.png" alt="Screenshot-10" border="0"></a>
 #
-#Exercise 4
+# Exercise 4
 #
 SELECT\
 COUNT(DISTINCT event_id) AS events\
 FROM dsv1069.events\
 WHERE event_name = ‘view_item’
 #
-#Exercise 5:
+# Exercise 5:
 #
 select \
 COUNT(DISTINCT item_id) as item_count\
@@ -57,7 +57,7 @@ inner join dsv1069.items on dsv1069.orders.item_id =dsv1069.items.id
 
 <a href="https://image.prntscr.com/image/rhqaQA2wSZCjDLIuDIjwbw.png"><img src="https://image.prntscr.com/image/rhqaQA2wSZCjDLIuDIjwbw.png" alt="Screenshot-10" border="0"></a>
 #
-#Exercise 6:
+# Exercise 6:
 #
 
 select \
@@ -72,7 +72,7 @@ dsv1069.users.id
 
 <a href="https://image.prntscr.com/image/g-w5zh3uQMO68taO4FMBLw.png"><img src="https://image.prntscr.com/image/g-w5zh3uQMO68taO4FMBLw.png" alt="Screenshot-10" border="0"></a>
 #
-#Exercise 7:
+# Exercise 7:
 #
 
 SELECT \
