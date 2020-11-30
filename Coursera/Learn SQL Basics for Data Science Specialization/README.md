@@ -1,1 +1,2 @@
+#### Course Title : SQL for Data Science
 <a href="https://github.com/ahmedosaka/snippets/blob/main/Coursera/src/SQL%20for%20Data%20Science.jpg"><img src="https://github.com/ahmedosaka/snippets/blob/main/Coursera/src/SQL%20for%20Data%20Science.jpg" alt="Screenshot-10" border="0"></a>
