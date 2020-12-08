@@ -221,8 +221,7 @@ SELECT * FROM fireIncidents INNER JOIN fireCalls ON fireIncidents.`Incident Numb
 -- COMMAND ----------
 
 -- TODO
-SELECT COUNT(*) FROM (SELECT * FROM fireIncidents INNER JOIN fireCalls ON fireIncidents.`Incident Number` = fireCalls.`Incident Number`) Battalion
-
+SELECT COUNT(fireIncidents.`Incident Number`) AS TOTAL_INCIDENTS FROM fireIncidents INNER JOIN fireCalls ON fireIncidents.`Battalion` = fireCalls.`Battalion`
 -- COMMAND ----------
 
 -- MAGIC %md
