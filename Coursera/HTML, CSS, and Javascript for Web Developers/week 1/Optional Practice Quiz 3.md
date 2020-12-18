@@ -1,1 +1,0 @@
-<a href="https://image.prntscr.com/image/RBFj0M04SDKKqQ3pRz4yAA.png"><img src="https://image.prntscr.com/image/RBFj0M04SDKKqQ3pRz4yAA.png" alt="Screenshot-10" border="0"></a>
