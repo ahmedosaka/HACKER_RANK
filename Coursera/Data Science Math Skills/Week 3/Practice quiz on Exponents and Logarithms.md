@@ -7,7 +7,4 @@
 <a href="https://image.prntscr.com/image/x32oSR99TySh9bLUpPC_EQ.png"><img src="https://image.prntscr.com/image/x32oSR99TySh9bLUpPC_EQ.png" alt="Screenshot-10" border="0"></a>
 <a href="https://image.prntscr.com/image/M1rzT-SKTq_AbT4p9kH67g.png"><img src="https://image.prntscr.com/image/M1rzT-SKTq_AbT4p9kH67g.png" alt="Screenshot-10" border="0"></a>
 <a href="https://image.prntscr.com/image/ihCvsONoRUW2LQeMU7g2TA.png"><img src="https://image.prntscr.com/image/ihCvsONoRUW2LQeMU7g2TA.png" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
+
