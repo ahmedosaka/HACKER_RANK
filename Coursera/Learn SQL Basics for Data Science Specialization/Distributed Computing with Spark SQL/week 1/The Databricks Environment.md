@@ -10,6 +10,4 @@
 ##### check it here: https://community.cloud.databricks.com/?o=6153411254584776#notebook/1467310047715040/command/1467310047715041
 
 
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
-<a href=""><img src="" alt="Screenshot-10" border="0"></a>
+
