@@ -30,6 +30,25 @@ void setup()
 }
 void loop()
 { 
+//  maestro.setSpeed(4, 20);  
+//  maestro.setAcceleration(4, 10);
+//  maestro.setTarget(4, 5500);
+//  maestro.setSpeed(5, 20);  
+//  maestro.setAcceleration(0, 5);
+//  maestro.setSpeed(6, 20);  
+//  maestro.setAcceleration(0, 5);
+//  maestro.setTarget(5, 3008);
+//  maestro.setTarget(6, 9024);
+//  delay(3000);
+//  
+//  maestro.setSpeed(5, 20);  
+//  maestro.setAcceleration(0, 5);
+//  maestro.setSpeed(6, 20);  
+//  maestro.setAcceleration(0, 5);
+//  maestro.setTarget(5, 8994);
+//  maestro.setTarget(6,3191 );
+//  delay(3000);
+  
   
   maestro.setSpeed(0, 20);  
   maestro.setAcceleration(0, 5); 
@@ -46,44 +65,46 @@ void loop()
   maestro.setSpeed(6, 20);  
   maestro.setAcceleration(6, 5); 
 
-
-  maestro.setTarget(4, 5500);
-  maestro.setTarget(0, 6000); 
-  maestro.setTarget(1, 6000); 
-  maestro.setTarget(2, 6000); 
-  maestro.setTarget(3, 6000);
-
-  delay(500);  
-  maestro.setTarget(4, 5300);
-  maestro.setTarget(0, 5000);
-  maestro.setTarget(1, 6500);
-  maestro.setTarget(2, 6800);
-  maestro.setTarget(3, 7000);
- 
+//zero position 
+  maestro.setTarget(0, 6366); 
+  maestro.setTarget(1, 5636); 
+  maestro.setTarget(2, 5227); 
+  maestro.setTarget(3, 6045);
+  maestro.setTarget(4, 5753);
   delay(500);
-  
-  maestro.setTarget(0, 7000); 
-  maestro.setTarget(1, 6000); 
 
-  delay(500); 
-  
-  maestro.setTarget(4, 5500);
-  maestro.setTarget(0, 6000); 
-  maestro.setTarget(1, 6000); 
-  maestro.setTarget(2, 6000);
-  maestro.setTarget(3, 6000);
 
-  delay(500);  
-  maestro.setTarget(4, 5700);
-  maestro.setTarget(0, 5000);
-  maestro.setTarget(1, 4800);
-  maestro.setTarget(2, 6500);
-  maestro.setTarget(3, 4700);
-
+//right forward step 1
+  maestro.setTarget(0, 6366); 
+  maestro.setTarget(1, 5636); 
+  maestro.setTarget(2, 4380); 
+  maestro.setTarget(3, 6045);
+  maestro.setTarget(4, 6200);
   delay(500);
-  
-  maestro.setTarget(2, 6000); 
-  maestro.setTarget(3, 6000); 
-  
+
+//right forward step 2
+  maestro.setTarget(0, 5461); 
+  maestro.setTarget(1, 5636); 
+  maestro.setTarget(2, 5227); 
+  maestro.setTarget(3, 6045);
+  maestro.setTarget(4, 5607);
+  delay(500);
+
+
+//left forward step 1
+  maestro.setTarget(0, 7709); 
+  maestro.setTarget(1, 5636); 
+  maestro.setTarget(2, 5461); 
+  maestro.setTarget(3, 6045);
+  maestro.setTarget(4, 5400);
+  delay(500);
+
+
+//right forward step 2
+  maestro.setTarget(0, 7709); 
+  maestro.setTarget(1, 5636); 
+  maestro.setTarget(2, 5461); 
+  maestro.setTarget(3, 6045);
+  maestro.setTarget(4, 5928);
   delay(500);
 }
