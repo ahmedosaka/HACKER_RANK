@@ -4,100 +4,60 @@ Created on Thu Apr 22 16:00:39 2021
 
 @author: ahmed
 """
-
-import pandas as pd
-import quandl, math, datetime
+from statistics import mean
 import numpy as np
-from sklearn import preprocessing, model_selection , svm
-from sklearn.linear_model import LinearRegression
+import random
 import matplotlib.pyplot as plt
 from matplotlib import style
-import pickle 
-
 style.use('ggplot')
 
-df = quandl.get('WIKI/GOOGL',api_key='eZ2Dpgx-_FxedSKq-eH8')
 
-#check the names of the columns to choose from
-#print(df.columns)
+def create_dataset(hm,variance,step=2,correlation=False):
+    val = 1
+    ys = []
+    for i in range(hm):
+        y = val + random.randrange(-variance,variance)
+        ys.append(y)
+        if correlation and correlation == 'pos':
+            val+=step
+        elif correlation and correlation == 'neg':
+            val-=step
 
-df = df[['Adj. Open', 'Adj. High', 'Adj. Low', 'Adj. Close', 'Adj. Volume']]
-#High minus low percent
-df['HL_PCT'] = (df['Adj. High'] - df['Adj. Close']) / df['Adj. Close'] * 100.0
-#percent change
-df['PCT_Change'] = (df['Adj. Close'] - df['Adj. Open']) / df['Adj. Open'] * 100.0
-
-df = df[['Adj. Close', 'HL_PCT', 'PCT_Change', 'Adj. Volume']]
-
-# print(df.tail())
-
-
-forecast_col = 'Adj. Close'
-df.fillna(-99999, inplace=True)
-
-forecast_out = int(math.ceil(0.01*len(df)))
-
-df['label'] = df[forecast_col].shift(-forecast_out)
-
-# print(df.head())
-
-
-X = np.array(df.drop(['label'],1))
-X = np.array(df.drop(['label'],1))
-X = preprocessing.scale(X)
-X_lately = X[-forecast_out:]
-X = X[:-forecast_out:]
-
-
-df.dropna(inplace=True)
-y = np.array(df['label'])
-
-
-X_train, X_test, y_train, y_test = model_selection.train_test_split(X,y,test_size = 0.2)
-
-
-# clf = LinearRegression(n_jobs=-1)
-# clf.fit(X_train, y_train)
-# with open('linearregression.pickle', 'wb') as f:
-#     pickle.dump(clf,f)
-
-pickle_in = open('linearregression.pickle','rb')
-clf = pickle.load(pickle_in)
-
-
-accuracy = clf.score(X_test, y_test)*100
-
-forecast_set = clf.predict(X_lately)
-
-# print(accuracy)
-
-df['Forecast']= np.nan
-
-last_date = df.iloc[-1].name
-last_unix = last_date.timestamp()
-one_day = 86400
-next_unix = last_unix + one_day
-
-for i in forecast_set:
-    next_date = datetime.datetime.fromtimestamp(next_unix)
-    next_unix += one_day
-    df.loc[next_date] = [np.nan for _ in range(len(df.columns)-1)] + [i]
+    xs = [i for i in range(len(ys))]
     
+    return np.array(xs, dtype=np.float64),np.array(ys,dtype=np.float64)
 
-df['Adj. Close'].plot()
-df['Forecast'].plot()
+def best_fit_slope_and_intercept(xs,ys):
+    m = (((mean(xs)*mean(ys)) - mean(xs*ys)) /
+         ((mean(xs)*mean(xs)) - mean(xs*xs)))
+    
+    b = mean(ys) - m*mean(xs)
+
+    return m, b
+
+
+def coefficient_of_determination(ys_orig,ys_line):
+    y_mean_line = [mean(ys_orig) for y in ys_orig]
+
+    squared_error_regr = sum((ys_line - ys_orig) * (ys_line - ys_orig))
+    squared_error_y_mean = sum((y_mean_line - ys_orig) * (y_mean_line - ys_orig))
+
+    print(squared_error_regr)
+    print(squared_error_y_mean)
+
+    r_squared = 1 - (squared_error_regr/squared_error_y_mean)
+
+    return r_squared
+
+
+xs, ys = create_dataset(40,40,2,correlation='pos')
+m, b = best_fit_slope_and_intercept(xs,ys)
+regression_line = [(m*x)+b for x in xs]
+r_squared = coefficient_of_determination(ys,regression_line)
+print(r_squared)
+
+plt.scatter(xs,ys,color='#003F72', label = 'data')
+plt.plot(xs, regression_line, label = 'regression line')
 plt.legend(loc=4)
-plt.xlabel('Date')
-plt.ylabel('Price')
 plt.show()
-
-
-
-
-
-
-
-
-
-
 
