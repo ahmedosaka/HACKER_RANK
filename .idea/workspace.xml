@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ec9b106-a39f-4171-aff5-9dbe366b8dbd" name="Default Changelist" comment="update my progress on coursera statistics with R">
+      <change afterPath="$PROJECT_DIR$/Machine learning/Regression/Multivariable Regression with Python/Multivariable Regression with Python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine learning/Regression/Multivariable Regression with Python/ex1data2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine learning/Regression/Regression with one variable -Python/RegressionModelOneVariable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine learning/Regression/Regression with one variable -Python/RegressionModelOneVariable.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="7627ebec-b309-4e24-a9fc-a90cb144a221" />
+  <component name="ProjectId" id="1k2WorODGv94Se9ELBSANOHtEmf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Coursera/IBM Data Science Professional Certificate/Machine Learning with Python/week 5" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Science Professional Certificate\Machine Learning with Python\Week 2" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\Data Science Specialization\The Data Scientist’s Toolbox\Week 4" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\notes" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Analyst Professional Certificate\IBM Data Analyst Capstone Project\Week 6" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Analyst Professional Certificate\Data Visualization with Python\week 2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Science Professional Certificate\Machine Learning with Python\week 5" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Science Professional Certificate\Machine Learning with Python\Week 4" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Coursera\IBM Data Science Professional Certificate\Machine Learning with Python\Week 3" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\snippets\notes\gamebot test" />
+      <recent name="C:\Ahmed\git\HACKER_RANK\Kaggle\Python" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="HACKER_RANK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Ahmed\ Mastering Flask Web Development\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/snippets/notes/gamebot test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snippets/notes/gamebot test/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ec9b106-a39f-4171-aff5-9dbe366b8dbd" name="Default Changelist" comment="" />
+      <created>1604899344303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604899344303</updated>
+      <workItem from="1604899345450" duration="23416000" />
+      <workItem from="1605146995847" duration="4402000" />
+      <workItem from="1605259938298" duration="1416000" />
+      <workItem from="1605431952878" duration="1904000" />
+      <workItem from="1605489323320" duration="20175000" />
+      <workItem from="1605679170449" duration="3294000" />
+      <workItem from="1605750501365" duration="10519000" />
+      <workItem from="1605836403427" duration="12751000" />
+      <workItem from="1605967611533" duration="1910000" />
+      <workItem from="1606124077700" duration="127000" />
+      <workItem from="1606124251689" duration="1234000" />
+      <workItem from="1606179668779" duration="14928000" />
+      <workItem from="1606268468143" duration="11043000" />
+      <workItem from="1606357965060" duration="5907000" />
+      <workItem from="1606458346132" duration="1724000" />
+      <workItem from="1606622079285" duration="8269000" />
+      <workItem from="1606703252113" duration="6264000" />
+      <workItem from="1606782269887" duration="7288000" />
+      <workItem from="1606889380156" duration="5655000" />
+      <workItem from="1606961596528" duration="7861000" />
+      <workItem from="1607050821057" duration="7337000" />
+      <workItem from="1607309554999" duration="2046000" />
+      <workItem from="1607391721875" duration="8710000" />
+      <workItem from="1607677049414" duration="717000" />
+      <workItem from="1607908912544" duration="5235000" />
+      <workItem from="1607999939268" duration="3452000" />
+      <workItem from="1608079894533" duration="5392000" />
+      <workItem from="1608175748016" duration="4464000" />
+      <workItem from="1608250845169" duration="6608000" />
+      <workItem from="1608532725745" duration="25464000" />
+      <workItem from="1608877725687" duration="9989000" />
+      <workItem from="1608964528521" duration="1374000" />
+      <workItem from="1609046141491" duration="13010000" />
+      <workItem from="1609388616533" duration="4690000" />
+      <workItem from="1609809251418" duration="3339000" />
+      <workItem from="1609834440827" duration="7502000" />
+      <workItem from="1609897492123" duration="15004000" />
+      <workItem from="1610008125748" duration="666000" />
+      <workItem from="1610069699375" duration="1400000" />
+      <workItem from="1610347525013" duration="2792000" />
+      <workItem from="1610462358686" duration="58000" />
+      <workItem from="1610512206540" duration="697000" />
+      <workItem from="1610603178227" duration="2450000" />
+      <workItem from="1610679024786" duration="2492000" />
+      <workItem from="1610843073660" duration="1876000" />
+      <workItem from="1611019220887" duration="12878000" />
+      <workItem from="1611049893900" duration="1225000" />
+      <workItem from="1611117591394" duration="1272000" />
+      <workItem from="1611233299867" duration="25000" />
+      <workItem from="1611302982182" duration="1313000" />
+      <workItem from="1611569292993" duration="1288000" />
+      <workItem from="1611673943276" duration="158000" />
+      <workItem from="1611723755029" duration="4208000" />
+      <workItem from="1611814066358" duration="2069000" />
+      <workItem from="1611884382486" duration="4342000" />
+      <workItem from="1612080299749" duration="647000" />
+      <workItem from="1612169919483" duration="4492000" />
+      <workItem from="1612493998401" duration="3123000" />
+      <workItem from="1612583170103" duration="1538000" />
+      <workItem from="1612755666517" duration="1825000" />
+      <workItem from="1612832844842" duration="7176000" />
+      <workItem from="1612870725966" duration="1075000" />
+      <workItem from="1612928980857" duration="1925000" />
+      <workItem from="1612963971130" duration="463000" />
+      <workItem from="1613358808658" duration="5088000" />
+      <workItem from="1613979587022" duration="2643000" />
+      <workItem from="1614162545249" duration="1258000" />
+      <workItem from="1614310912618" duration="199000" />
+      <workItem from="1614334872672" duration="504000" />
+      <workItem from="1614339545485" duration="85000" />
+      <workItem from="1614559805312" duration="10708000" />
+      <workItem from="1614650347348" duration="1882000" />
+      <workItem from="1615888771586" duration="1292000" />
+      <workItem from="1616134421510" duration="2717000" />
+      <workItem from="1616227943038" duration="1348000" />
+    </task>
+    <task id="LOCAL-00055" summary="updating sql for data science course week 3">
+      <created>1609388817758</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1609388817760</updated>
+    </task>
+    <task id="LOCAL-00056" summary="updating sql for data science course week 4">
+      <created>1609478755127</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1609478755127</updated>
+    </task>
+    <task id="LOCAL-00057" summary="updating week 1 data analysis with python week 1">
+      <created>1609809693173</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1609809693174</updated>
+    </task>
+    <task id="LOCAL-00058" summary="updating week 1 data analysis with python week 1">
+      <created>1609814182972</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609814182972</updated>
+    </task>
+    <task id="LOCAL-00059" summary="updating week 1 data analysis with python week 1">
+      <created>1609829908179</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829908179</updated>
+    </task>
+    <task id="LOCAL-00060" summary="updating week 1 data analysis with python week 2">
+      <created>1609829928581</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829928581</updated>
+    </task>
+    <task id="LOCAL-00061" summary="sql update">
+      <created>1609832230425</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1609832230425</updated>
+    </task>
+    <task id="LOCAL-00062" summary="sql update">
+      <created>1609832395801</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1609832395801</updated>
+    </task>
+    <task id="LOCAL-00063" summary="data analysis with python week 3 update">
+      <created>1609915175739</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1609915175740</updated>
+    </task>
+    <task id="LOCAL-00064" summary="data analysis with python week 5 update">
+      <created>1610082920595</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1610082920596</updated>
+    </task>
+    <task id="LOCAL-00065" summary="updating math for data science probability">
+      <created>1610348489162</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1610348489162</updated>
+    </task>
+    <task id="LOCAL-00066" summary="updating the first week of data visualization with python">
+      <created>1610373340344</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1610373340344</updated>
+    </task>
+    <task id="LOCAL-00067" summary="updating the second week of data visualization with python">
+      <created>1610462420994</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1610462420995</updated>
+    </task>
+    <task id="LOCAL-00068" summary="updating the second week of data visualization with python">
+      <created>1610512302283</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1610512302284</updated>
+    </task>
+    <task id="LOCAL-00069" summary="updating the second week of data visualization with python">
+      <created>1610603203578</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1610603203579</updated>
+    </task>
+    <task id="LOCAL-00070" summary="updating the third week of data visualization with python">
+      <created>1610616639925</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1610616639925</updated>
+    </task>
+    <task id="LOCAL-00071" summary="updating the third week of data visualization with python">
+      <created>1610679166876</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1610679166877</updated>
+    </task>
+    <task id="LOCAL-00072" summary="updating the first week of capstone project.">
+      <created>1611029782719</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1611029782720</updated>
+    </task>
+    <task id="LOCAL-00073" summary="updating the capstone project">
+      <created>1611036842751</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1611036842751</updated>
+    </task>
+    <task id="LOCAL-00074" summary="updating the capstone project">
+      <created>1611049921228</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1611049921229</updated>
+    </task>
+    <task id="LOCAL-00075" summary="updating the capstone project">
+      <created>1611117630722</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1611117630723</updated>
+    </task>
+    <task id="LOCAL-00076" summary="updating the capstone project">
+      <created>1611233318270</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1611233318271</updated>
+    </task>
+    <task id="LOCAL-00077" summary="updating the capstone project">
+      <created>1611303017972</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1611303017973</updated>
+    </task>
+    <task id="LOCAL-00078" summary="updating the capstone project">
+      <created>1611569384119</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1611569384119</updated>
+    </task>
+    <task id="LOCAL-00079" summary="updating the capstone project">
+      <created>1611674098450</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1611674098451</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Just practicing">
+      <created>1611727768297</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1611727768298</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Just practicing">
+      <created>1611727915518</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1611727915518</updated>
+    </task>
+    <task id="LOCAL-00082" summary="updating The Data Scientist’s Toolbox&#10;Week 1">
+      <created>1611739756560</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1611739756560</updated>
+    </task>
+    <task id="LOCAL-00083" summary="updating The Data Scientist’s Toolbox&#10;Week 2">
+      <created>1611814155012</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1611814155013</updated>
+    </task>
+    <task id="LOCAL-00084" summary="updating The Data Scientist’s Toolbox&#10;Week 3">
+      <created>1611828013719</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1611828013719</updated>
+    </task>
+    <task id="LOCAL-00085" summary="updating The Data Scientist’s Toolbox&#10;Week 4">
+      <created>1611913109000</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1611913109000</updated>
+    </task>
+    <task id="LOCAL-00086" summary="updating The Data Scientist’s Toolbox&#10;Week 4">
+      <created>1611913145991</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1611913145991</updated>
+    </task>
+    <task id="LOCAL-00087" summary="updating The Data Scientist’s Toolbox&#10;Week 4">
+      <created>1611913792491</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1611913792491</updated>
+    </task>
+    <task id="LOCAL-00088" summary="updating R Programming&#10;Week 1">
+      <created>1612170051742</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1612170051744</updated>
+    </task>
+    <task id="LOCAL-00089" summary="updating arduino humanoid robot">
+      <created>1612364294839</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1612364294839</updated>
+    </task>
+    <task id="LOCAL-00090" summary="updating the second week of Machine learning course. &#10;In this lesson, I learnt about Sklearn and linear regression models.">
+      <created>1612430884102</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1612430884103</updated>
+    </task>
+    <task id="LOCAL-00091" summary="updating the second week of Machine learning course. &#10;In this lesson, I learnt about Sklearn and Multi linear regression models.">
+      <created>1612494052434</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1612494052435</updated>
+    </task>
+    <task id="LOCAL-00092" summary="updating the second week of Machine learning course. &#10;In this lesson, I learnt about polynomial regression using scikit learn">
+      <created>1612501246775</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1612501246775</updated>
+    </task>
+    <task id="LOCAL-00093" summary="updating the second week of Machine learning course. &#10;In this lesson, I learnt about polynomial regression using scikit learn and non-linear regression">
+      <created>1612583510736</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1612583510737</updated>
+    </task>
+    <task id="LOCAL-00094" summary="adding kaggle practice sheet and test gamebot">
+      <created>1612870692577</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1612870692578</updated>
+    </task>
+    <task id="LOCAL-00095" summary="updating week 3&#10;I learnt SVM">
+      <created>1612929094821</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1612929094822</updated>
+    </task>
+    <task id="LOCAL-00096" summary="updating week 4&#10;K-mean clustering">
+      <created>1612948465646</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1612948465646</updated>
+    </task>
+    <task id="LOCAL-00097" summary="updating week 4&#10;Hierarchical Clustering">
+      <created>1613358857390</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1613358857391</updated>
+    </task>
+    <task id="LOCAL-00098" summary="updating week 4&#10;Density-based Clustering">
+      <created>1613368086482</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1613368086482</updated>
+    </task>
+    <task id="LOCAL-00099" summary="updating week 4&#10;recommendation system">
+      <created>1613386029471</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1613386029471</updated>
+    </task>
+    <task id="LOCAL-00100" summary="arduino : robot walking program&#10;&#10;adding my progress on Khan Academy">
+      <created>1613988418983</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1613988418983</updated>
+    </task>
+    <task id="LOCAL-00101" summary="&#10;&#10;adding my progress on Khan Academy">
+      <created>1614167196012</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167196012</updated>
+    </task>
+    <task id="LOCAL-00102" summary="&#10;&#10;adding my progress on Khan Academy">
+      <created>1614311109501</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1614311109502</updated>
+    </task>
+    <task id="LOCAL-00103" summary="update my progress on coursera statistics with R">
+      <created>1614610711608</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1614610711609</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Ahmed/git/HACKER_RANK/Coursera/IBM Data Analyst Professional Certificate/Data Analysis with Python/week 3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Ahmed/git/HACKER_RANK/Coursera/IBM Data Analyst Professional Certificate/IBM Data Analyst Capstone Project/Week 4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updating the first week of data visualization with python" />
+    <MESSAGE value="updating the second week of data visualization with python" />
+    <MESSAGE value="updating the third week of data visualization with python" />
+    <MESSAGE value="updating the first week of capstone project." />
+    <MESSAGE value="updating the capstone project" />
+    <MESSAGE value="Just practicing" />
+    <MESSAGE value="updating The Data Scientist’s Toolbox&#10;Week 1" />
+    <MESSAGE value="updating The Data Scientist’s Toolbox&#10;Week 2" />
+    <MESSAGE value="updating The Data Scientist’s Toolbox&#10;Week 3" />
+    <MESSAGE value="updating The Data Scientist’s Toolbox&#10;Week 4" />
+    <MESSAGE value="updating R Programming&#10;Week 1" />
+    <MESSAGE value="updating arduino humanoid robot" />
+    <MESSAGE value="updating the second week of Machine learning course. &#10;In this lesson, I learnt about Sklearn and linear regression models." />
+    <MESSAGE value="updating the second week of Machine learning course. &#10;In this lesson, I learnt about Sklearn and Multi linear regression models." />
+    <MESSAGE value="updating the second week of Machine learning course. &#10;In this lesson, I learnt about polynomial regression using scikit learn" />
+    <MESSAGE value="updating the second week of Machine learning course. &#10;In this lesson, I learnt about polynomial regression using scikit learn and non-linear regression" />
+    <MESSAGE value="adding kaggle practice sheet and test gamebot" />
+    <MESSAGE value="updating week 3&#10;I learnt SVM" />
+    <MESSAGE value="updating week 4&#10;K-mean clustering" />
+    <MESSAGE value="updating week 4&#10;Hierarchical Clustering" />
+    <MESSAGE value="updating week 4&#10;Density-based Clustering" />
+    <MESSAGE value="updating week 4&#10;recommendation system" />
+    <MESSAGE value="arduino : robot walking program&#10;&#10;adding my progress on Khan Academy" />
+    <MESSAGE value="&#10;&#10;adding my progress on Khan Academy" />
+    <MESSAGE value="update my progress on coursera statistics with R" />
+    <option name="LAST_COMMIT_MESSAGE" value="update my progress on coursera statistics with R" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="603" y="187" key="#Illuminated_Cloud" timestamp="1613979590800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="603" y="187" key="#Illuminated_Cloud/0.0.1920.1040@0.0.1920.1040" timestamp="1613979590800" />
+    <state x="1293" y="383" width="532" height="398" key="#Notifications" timestamp="1606124261002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1293" y="383" width="532" height="398" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1606124261002" />
+    <state x="414" y="175" width="1092" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612964044873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612964044873" />
+    <state x="742" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614682841499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614682841499" />
+    <state x="352" y="88" key="CommitChangelistDialog2" timestamp="1614610717032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614610717032" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612870850055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612870850055" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612871160030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612871160030" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612871160030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612871160030" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612871160030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612871160030" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612871160030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612871160030" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612533685771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612533685771" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607322635660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607322635660" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HACKER_RANK$Assignment_7_2.coverage" NAME="Assignment 7.2 Coverage Results" MODIFIED="1611725933330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coursera/Python for Everybody/Python Data Structures/Week 3" />
+    <SUITE FILE_PATH="coverage/HACKER_RANK$Pytorch_001.coverage" NAME="Pytorch-001 Coverage Results" MODIFIED="1605945299313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Artificial Intelligence A-Z™ Learn How To Build An AI/Pytorch" />
+    <SUITE FILE_PATH="coverage/HACKER_RANK$notes.coverage" NAME="notes Coverage Results" MODIFIED="1612870641249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HACKER_RANK$run.coverage" NAME="run Coverage Results" MODIFIED="1612871051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snippets/notes/gamebot test" />
+  </component>
+</project>
