@@ -4,7 +4,9 @@
 ## What kind of courses I'm taking now?
 ### I'm studying the coursera data science learning path courses to become a data science and to start to be able to compete on Kaggle competitions.
 ### please check the coursera's learning path for data science <a href="https://www.coursera.org/learning-paths/data-science">here</a>
-
+### Edit:
+  I'm studying deeplearning using Tensorflow and Keras. Also trying to build automated robot using raspberry pi 4 on the top of KHR-3HV
+  
 ## このリポジトリとは何ですか？ 
 ### このリポジトリは、自分自身と将来の雇用主が確認できるように、コースの進捗状況を記録して整理するためのスペースです。
 
@@ -18,3 +20,8 @@
 ## ايه الكورسات اللي انا باخدها دلوقتي؟
 ### حالياً انا بدرس داتا ساينس على موقع كورسيرا عشان أقدر أنافس الداتا ساينتستس التانيين على موقع كاجل. تقدر تشوف كل الكورسات اللي انا اخدها وهاخدها من <a href="https://www.coursera.org/learning-paths/data-science">هنا</a> 
 
+تعديل:
+حالياً انا بدرس التعلم العميق من قسم تعليم الآله
+وكمان بحاول اعدل على روبوت 
+kh3-3hv
+وتحويله لروبوتذاتي القيادة عن طريق استخدام الراسبري باي 4  
